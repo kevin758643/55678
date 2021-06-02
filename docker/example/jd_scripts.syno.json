@@ -1,0 +1,91 @@
+{
+   "cap_add" : null,
+   "cap_drop" : null,
+   "cmd" : "",
+   "cpu_priority" : 0,
+   "devices" : null,
+   "enable_publish_all_ports" : false,
+   "enable_restart_policy" : true,
+   "enabled" : false,
+   "env_variables" : [
+      {
+         "key" : "PATH",
+         "value" : "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      },
+      {
+         "key" : "CDN_JD_DAILYBONUS",
+         "value" : "true"
+      },
+      {
+         "key" : "JD_COOKIE",
+         "value" :"pt_key=AAJgtr3WADDq4unkEFiHCqhOQPvlzl4bx8hVsIWCCoG7rQAfI_f-ptXVzyqdDhHNfHlcW_fjEsc;pt_pin=donychen;&pt_key=AAJgoeDIADCfnJoJsGKwhu7sMnH9IOlo6ysge7SwDwoEz7bURXcUCyVqa1o4ItmJ26Pnh7vlxfk;pt_pin=618dx;&pt_key=AAJgkLOiADDsGBehYaC55urphygQEkYnoRep6Bq3PIrUB1gY7Ly5tvR9POuf5kI4SIOATndZu7Y;pt_pin=%E8%A2%81%E7%9A%93-%E4%BA%91%E4%BA%91;&pt_key=AAJglh8SADDPd3QQctSS-g0TCowkMO0-anGB93bKpj2DyDFFIrFZ7GEnYd_nLACS7XAcnXmXDRU;pt_pin=jd_436f9d3235f08;&pt_key=AAJgme_PADB9ndo92yMZRougt1CENDLgTepFEU_hGsIBtzjhDUI8yM--efqcVfBoic_JdhyY-Og;pt_pin=wdVOPuiqRJSMZQ;&pt_key=AAJgkLP2ADAyuj2ISTaG9ZzJxGsiVNXdsSbI6z8HNJBAnLDkMjxZ6ulhI9tZdMuboljt1j6AQvg;pt_pin=H920415154;&pt_key=AAJgs0q5ADBUgbHKJccsabIvEZDoDogklwQcr5RgDp5epvVMM4DP8TrZ1EoFrswRfCXgyxhaWfw;pt_pin=leon_j_yang;&pt_key=AAJgkP3eADDZAwJOO0d84C5yvx016rlZJajm5HqVHBBL5zbtERLZewrA6SWv3X5XbkmGonkige8;pt_pin=jd_460027419c808;"
+      },
+      {
+         "key" : "TG_BOT_TOKEN",
+         "value" : "AAFN7g46UL7T6ms4OniJpxkBXCNXMA4jF1w"
+      },
+      {
+         "key" : "TG_USER_ID",
+         "value" : "534438352"
+      },
+	  {
+		"key" : "PUSH_PLUS_TOKEN",
+		"value" : "bbd9fede09914bbca14937b25adb811d"
+	  },
+	  {
+		"key" : "PUSH_PLUS_USER",
+		"value" : "jdfruit"
+	  },
+      {
+         "key" : "PLANT_BEAN_SHARECODES",
+         "value" : ""
+      },
+      {
+         "key" : "FRUITSHARECODES",
+         "value" : ""
+      },
+      {
+         "key" : "PETSHARECODES",
+         "value" : ""
+      },
+      {
+         "key" : "SUPERMARKET_SHARECODES",
+         "value" : ""
+      },
+      {
+         "key" : "CRONTAB_LIST_FILE",
+         "value" : "crontab_list.sh"
+      }
+   ],
+   "exporting" : false,
+   "id" : "18af38bc0ac37a40e4b9608a86fef56c464577cc160bbdddec90155284fcf4e5",
+   "image" : "lxk0301/jd_scripts",
+   "is_ddsm" : false,
+   "is_package" : false,
+   "links" : [],
+   "memory_limit" : 0,
+   "name" : "jd_scripts",
+   "network" : [
+      {
+         "driver" : "bridge",
+         "name" : "bridge"
+      }
+   ],
+   "network_mode" : "default",
+   "port_bindings" : [],
+   "privileged" : false,
+   "shortcut" : {
+      "enable_shortcut" : false,
+      "enable_status_page" : false,
+      "enable_web_page" : false,
+      "web_page_url" : ""
+   },
+   "use_host_network" : false,
+   "volume_bindings" : [
+      {
+         "host_volume_file" : "/docker/lxk0301_jd_docker/logs",
+         "mount_point" : "/scripts/logs",
+         "type" : "rw"
+      }
+   ]
+}
